@@ -1,0 +1,7 @@
+﻿  Z_Search_1074.c
+c:\users\jimmy hong\desktop\c\baekjoon\z_search_1074\z_search_1074\z_search_1074.c(24): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\jimmy hong\desktop\c\baekjoon\z_search_1074\z_search_1074\z_search_1074.c(27): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\jimmy hong\desktop\c\baekjoon\z_search_1074\z_search_1074\z_search_1074.c(32): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\jimmy hong\desktop\c\baekjoon\z_search_1074\z_search_1074\z_search_1074.c(35): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\users\jimmy hong\desktop\c\baekjoon\z_search_1074\z_search_1074\z_search_1074.c(16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Z_Search_1074.vcxproj -> C:\Users\Jimmy Hong\Desktop\C\Baekjoon\Z_Search_1074\Debug\Z_Search_1074.exe
