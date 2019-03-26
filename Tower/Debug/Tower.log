@@ -1,0 +1,3 @@
+﻿  Tower.c
+c:\users\jimmy hong\source\repos\stack\tower\tower.c(82): warning C4101: 'arr': unreferenced local variable
+  Tower.vcxproj -> C:\Users\Jimmy Hong\source\repos\Stack\Debug\Tower.exe
