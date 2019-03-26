@@ -1,3 +1,4 @@
+
 /*
 	백준 알고리즘 문제 풀이 1074번 (Recursion Example)
 	Z 탐색 : https://www.acmicpc.net/problem/1074
@@ -9,7 +10,6 @@
 #include<stdlib.h>
 #include<string.h>
 #include<math.h>
-
 
 int z_search(int N, int r, int c) {
 
@@ -36,23 +36,14 @@ int z_search(int N, int r, int c) {
 			}
 		}
 	}
-
-
-
 }
-
-
 
 int main()
 {
 	int N, r, c;
 
 	scanf("%d %d %d", &N, &r, &c);
-
-
 	printf("%d", z_search(N, r, c));
-
-
 
 	return 0;
 }
