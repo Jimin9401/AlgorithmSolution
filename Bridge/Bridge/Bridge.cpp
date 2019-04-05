@@ -1,5 +1,8 @@
-// Data_structure.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+/*
+	Programmers solution using Queue.
+	
+	Source: https://programmers.co.kr/learn/courses/30/lessons/42583?language=cpp 
+*/
 
 #define _CRT_SECURE_NO_WARNINGS
 #define max_size (100)
@@ -145,10 +148,6 @@ int main()
 			}
 		}
 	}
-
-
-	
-
 	printf("\n%d\n", sec);
 
 	return 0;
