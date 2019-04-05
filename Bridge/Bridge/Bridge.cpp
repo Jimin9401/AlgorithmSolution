@@ -118,7 +118,7 @@ int main()
 	push(&timearr, 1);
 	sec++;
 
-	while (onbridge.rear != (onbridge.top) && waiting.top!=waiting.rear) 
+	while (onbridge.rear != (onbridge.top) ) 
 	{
 		if (peek(&timearr) == through) {
 			pop(&timearr);
@@ -126,14 +126,9 @@ int main()
 		}
 		
 		if (waiting.top == (waiting.rear)) 
-		{
-		
-//			if (sumTruck(&onbridge) <= max_weight) {
-				plustime(&timearr);
-			//	push(&onbridge, pop(&waiting));
-			//	push(&timearr, 1);
-				sec++;
-//			}
+		{		
+			plustime(&timearr);
+			sec++;
 		}	
 		else {
 			if (sumTruck(&onbridge) + peek(&waiting) <= max_weight) 
@@ -143,7 +138,7 @@ int main()
 					push(&timearr, 1);
 					sec++;
 			}
-			else if(sumTruck(&onbridge)<=max_weight)
+			else 
 			{
 					plustime(&timearr);
 					sec++;
